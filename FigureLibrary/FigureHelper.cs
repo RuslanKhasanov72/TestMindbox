@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FigureLibrary
 {
-	public static class ShapeHelper
+	public static class FigureHelper
 	{
 		public static double GetArea(IFigure figure)
 		{

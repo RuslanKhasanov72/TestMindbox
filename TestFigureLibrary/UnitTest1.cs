@@ -39,7 +39,7 @@ namespace TestFigureLibrary
 		{
 			IFigure circle = new Circle(7);
 			double expectedArea = Math.PI * 49;
-			Assert.Equal(expectedArea, ShapeHelper.GetArea(circle), 5);
+			Assert.Equal(expectedArea, FigureHelper.GetArea(circle), 5);
 		}
 
 		[Fact]
@@ -47,7 +47,7 @@ namespace TestFigureLibrary
 		{
 			IFigure triangle = new Triangle(5, 12, 13);
 			double expectedArea = 30;
-			Assert.Equal(expectedArea, ShapeHelper.GetArea(triangle), 5);
+			Assert.Equal(expectedArea, FigureHelper.GetArea(triangle), 5);
 		}
 	}
 }
